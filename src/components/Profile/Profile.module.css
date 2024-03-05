@@ -1,0 +1,59 @@
+.box {
+    width: 500px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+.image {
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid;
+    background-color: gray;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: 600;
+    color: black;
+    margin: 10px 0;
+}
+
+.tag {
+    font-size: 28px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.location {
+    font-size: 28px;
+    color: gray;
+    margin: 10px 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background-color: rgb(187, 184, 184);
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid;
+    width: 260px;
+    height: 100px;
+}
+
+.text {
+    font-size: 26px;
+}
+
+.data {
+    font-size: 26px;
+    font-weight: 500;
+}

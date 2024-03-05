@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+
+}
+
+.item {
+    border: 1px solid;
+    border-radius: 10px;
+    width: 110px;
+}
+
+.image {
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+.status {
+    margin: 0 0 10px 0;
+}
