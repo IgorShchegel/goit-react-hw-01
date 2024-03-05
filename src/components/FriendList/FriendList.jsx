@@ -1,14 +1,6 @@
 import css from './FriendList.module.css'
+import FriendListItem from './FriendListItem/FriendListItem';
 
-const FriendListItem = ({ avatar, name, isOnline }) => {
-  return (
-    <div>
-      <img className={css.image} src={avatar} alt="Avatar" width="80" />
-      <p className={css.name}>{name}</p>
-      <p className={css.status} style={{ color: isOnline ? 'green' : 'red' }}>{isOnline ? 'Online' : 'Offline'}</p>
-    </div>
-  );
-};
 
 
 
